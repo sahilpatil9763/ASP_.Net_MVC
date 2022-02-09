@@ -12,6 +12,7 @@ namespace Bike_Selling_Management_System.Models
 
         public Make Make { get; set; }
 
+        [ForeginKey("Make")]
         public int MakeID { get; set; }
     }
 }
