@@ -10,7 +10,7 @@ namespace Bike_Selling_Management_System.App_DB_Context
 {
     public class Bike_Selling_DBContext:DbContext
     {
-        public Bike_Selling_DBContext(DbContextOptions<Bike_Selling_DBContext> options)
+        public Bike_Selling_DBContext(DbContextOptions <Bike_Selling_DBContext> options)
         {
 
         }
